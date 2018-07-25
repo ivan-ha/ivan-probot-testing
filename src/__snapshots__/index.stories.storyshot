@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components|IconLink default 1`] = `
+.c3 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 {
+  font-family: system-ui,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+.c2 {
+  font-size: 1.5rem;
+  color: currentcolor;
+  width: 1em;
+  height: 1em;
+  box-sizing: border-box;
+}
+
+.c2 > svg {
+  width: 100%;
+  height: 100%;
+  fill: currentcolor;
+  stroke: none;
+}
+
+.c1 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  color: inherit;
+}
+
+<div
+  className="c0"
+>
+  <div>
+    <p>
+      with hoveredIcon
+    </p>
+    <span
+      className="c1"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <a
+        href="http://www.facebook.com"
+        target="_blank"
+        title={undefined}
+      >
+        <div
+          className="c2 c3"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "test-file-stub",
+            }
+          }
+        />
+      </a>
+    </span>
+    <p>
+      without hoveredIcon
+    </p>
+    <span
+      className="c1"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <a
+        href="http://www.instagram.com"
+        target="_blank"
+        title={undefined}
+      >
+        <div
+          className="c2 c3"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "test-file-stub",
+            }
+          }
+        />
+      </a>
+    </span>
+  </div>
+</div>
+`;
